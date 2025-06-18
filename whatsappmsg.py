@@ -2,10 +2,10 @@ from twilio.rest import Client
 from datetime import datetime, timedelta
 import time
 
-account_sid = 'AC745ad82a0c331b6cadaca2969c046784'
-auth_token = '2e948479b4c9f80e501319f33279a35f'
+#account_sid = 'AC745ad82a0c331b6cadaca2969c046784'
+#auth_token = '2e948479b4c9f80e501319f33279a35f'
 
-client = Client(account_sid, auth_token)
+#client = Client(account_sid, auth_token)
 
 def whatsapp_msg(recipient_number, message_body):
     try:
